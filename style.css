@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background:#F9F9F9;
+    --black:#181818;
+    --texto-body:#474747;
+    --texto-head:#F9F9F9;
+}
+
+body{
+    background-color: var(--background);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topo{
+    color: var(--texto-head);
+    background-color: var(--black);
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+}
+
+h1{
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+header .banner{
+    width: 100%;
+    height: 378px;
+    background:url(assets/Mask\ Group.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.6);
+}
+
+.container{
+    top: 0;
+    position: absolute;
+    width: 1239px;
+    margin: 0 auto;
+}
+
+header h2{
+    color: var(--texto-head);
+    margin-top: 129px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+header p{
+    color: var(--texto-head);
+    margin-top: 19px;
+    line-height: 196.19%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h3{
+    color: var(--black);
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 58px;
+    /* line-height: 62.78px; */
+}
+
+h4{
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
