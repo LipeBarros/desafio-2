@@ -9,6 +9,7 @@
     --black:#181818;
     --texto-body:#474747;
     --texto-head:#F9F9F9;
+    --backgound-img:#EBE9EA;
 }
 
 body{
@@ -52,8 +53,7 @@ header .banner{
     top: 0;
     position: absolute;
     width: 1239px;
-    margin: 0 auto;
-}
+    margin: 0 auto;}
 
 header h2{
     color: var(--texto-head);
@@ -75,8 +75,8 @@ h3{
     font-size: 32px;
     font-weight: 600;
     text-align: center;
-    margin-top: 58px;
-    /* line-height: 62.78px; */
+    margin-top: 70px;
+    
 }
 
 h4{
@@ -84,4 +84,50 @@ h4{
     font-size: 18px;
     font-weight: 500;
     text-align: center;
+    margin-top: 18px;
+}
+
+.containerBody{
+    margin: 0 auto;
+    margin-top: 66px ;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    max-width: 1279px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+    column-gap: 13px;
+    row-gap: 39px;
+}
+
+.containerBody div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--backgound-img);
+    min-width: 300px;
+    height: 302px;
+}
+
+.containerBody div:hover{
+    box-shadow: 0px 1px 7px 0px #0000004a;
+}
+
+.containerBody div img{
+    transition-duration: 0.2s;
+    width: 250px;
+}
+
+.containerBody div:hover img{
+    width: 275px;
+}
+footer{
+    width: 100%;
+    margin-top: 100px;
+    line-height: 60px;
+    color: var(--texto-head);
+    text-align: center;
+    background-color: var(--black);
+    
 }
