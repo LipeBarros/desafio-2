@@ -52,7 +52,7 @@ header .banner{
 .container{
     top: 0;
     position: absolute;
-    width: 1239px;
+    max-width: 1239px;
     margin: 0 auto;}
 
 header h2{
